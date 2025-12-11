@@ -291,9 +291,9 @@ For full details, please see **`RUN.md`**, but the main steps are:
 
 The full paper-style report (12 pages) is included in the repository:
 
-- **Path:** `docs/10623_Final_Project_Report.pdf`  
+- **Path:** 📄[View Project Final Report](./doc/10623_Final_Project_Report.pdf)  
 - **Recommended citation/title:**  
-  *Patrick Chen, Mingyang Yu, Kanlong Ye. “Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search.” 10-423/623/723 Generative AI Final Report, Carnegie Mellon University, 2025.*
+  *Patrick Chen*, Mingyang Yu, Kanlong Ye. “Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search.” 10-423/623/723 Generative AI Final Report, Carnegie Mellon University, 2025.*
 
 You can open it directly from the repo root:
 
