@@ -2,7 +2,7 @@
 
 > **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye  
 > **Course**: 10-623 Generative AI, Carnegie Mellon University  
-> 📄 [View Project Final Report](./doc/10623_Final_Project_Report.pdf)
+> 📄 [View Project Final Report](./docs/10623_Final_Project_Report.pdf)
 
 This repository implements a production-style fashion visual search system that maps each Stock Keeping Unit (SKU) to **a single shared embedding** (“SKU-per-vector”) used for both image and text queries. The system is built and evaluated on **DeepFashion2** and combines:
 
@@ -291,7 +291,7 @@ For full details, please see **`RUN.md`**, but the main steps are:
 
 The full paper-style report (12 pages) is included in the repository:
 
-- **Path:** 📄[View Project Final Report](./doc/10623_Final_Project_Report.pdf)  
+- **Path:** 📄[View Project Final Report](./docs/10623_Final_Project_Report.pdf)  
 - **Recommended citation/title:**  
   *Patrick Chen\*, Mingyang Yu, Kanlong Ye. “Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search.” 10-423/623/723 Generative AI Final Report, Carnegie Mellon University, 2025.*
 
