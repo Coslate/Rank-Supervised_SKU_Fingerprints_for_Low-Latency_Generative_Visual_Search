@@ -1,6 +1,6 @@
 # Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search
 
-> **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye 
+> **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye \\
 > **Course**: 10-623 Generative AI, Carnegie Mellon University  
 > 📄 [View Project Final Report](./doc/10623_Final_Project_Report.pdf)
 
