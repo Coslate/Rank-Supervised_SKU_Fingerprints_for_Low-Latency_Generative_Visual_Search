@@ -1,6 +1,8 @@
 # Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search
 
-Final project for **10-423/623/723 Generative AI (CMU)**.
+> **Author**: Patrick Chen  
+> **Course**: 10-623 Generative AI, Carnegie Mellon University  
+> 📄 [View Project Final Report](./doc/10623_Final_Project_Report.pdf)
 
 This repository implements a production-style fashion visual search system that maps each Stock Keeping Unit (SKU) to **a single shared embedding** (“SKU-per-vector”) used for both image and text queries. The system is built and evaluated on **DeepFashion2** and combines:
 
@@ -33,9 +35,9 @@ We use **DeepFashion2 (DF2)** as the only dataset.
 
 A **visual SKU** is defined as:
 
-\[
+$
 \text{SKU} = (\text{pair\_id},\ \text{style} > 0,\ \text{category\_id})
-\]
+$
 
 - Items with `style = 0` are discarded.
 - Crops from images with `source = "shop"` are treated as **catalog** images.
