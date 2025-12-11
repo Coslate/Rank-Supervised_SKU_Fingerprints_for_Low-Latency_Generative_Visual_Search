@@ -1,6 +1,6 @@
 # Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search
 
-> **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye \\
+> **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye  
 > **Course**: 10-623 Generative AI, Carnegie Mellon University  
 > 📄 [View Project Final Report](./doc/10623_Final_Project_Report.pdf)
 
@@ -68,7 +68,7 @@ All preprocessing (cropping, SKU grouping, and image–text JSONL generation) is
    - Offline SD v1.5 img2img + LoRA produces identity-preserving catalog multi-views.
 
 3. **Rank-supervised SKU fingerprint model**  
-   - A Q-Former-style aggregator \(g_\theta\) attends over catalog + generative view embeddings and outputs one L2-normalized fingerprint per SKU.
+   - A Q-Former-style aggregator $(g_\theta\)$ attends over catalog + generative view embeddings and outputs one L2-normalized fingerprint per SKU.
    - Training uses a combination of:
      - L2 regression to **best-shot teacher** embeddings (selected per SKU from catalog views),
      - KL-based **rank distillation** from teacher rankings (search-metric supervision),
