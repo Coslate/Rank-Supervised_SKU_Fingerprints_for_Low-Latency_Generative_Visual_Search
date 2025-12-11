@@ -1,6 +1,6 @@
 # Rank-Supervised SKU Fingerprints for Low-Latency Generative Visual Search
 
-> **Author**: Patrick Chen  
+> **Author**: Patrick Chen*, MingYang Yu, Kanlong Ye 
 > **Course**: 10-623 Generative AI, Carnegie Mellon University  
 > 📄 [View Project Final Report](./doc/10623_Final_Project_Report.pdf)
 
@@ -35,9 +35,7 @@ We use **DeepFashion2 (DF2)** as the only dataset.
 
 A **visual SKU** is defined as:
 
-$
-\text{SKU} = (\text{pair\_id},\ \text{style} > 0,\ \text{category\_id})
-$
+`SKU = (pair_id, style > 0, category_id)`
 
 - Items with `style = 0` are discarded.
 - Crops from images with `source = "shop"` are treated as **catalog** images.
